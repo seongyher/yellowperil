@@ -1,0 +1,21 @@
+---
+const entries = [
+	{title: "It's Always Eclipse Somewhere", slug: "/scenes/itsalwayseclipsesomewhere"},
+	{title: "This City Is Cursed", slug: "/scenes/thiscityiscursed"},
+	{title: "I Built A Church For My Friends To Pray In", slug: "/scenes/ibuiltachurchformyfriendstoprayin"},
+	{title: "Here's One About Health And Healthcare (For No Reason Whatsoever)", slug: "/scenes/heresoneabouthealthandhealthcare"}
+	];
+---
+
+<html>
+  <body>
+    <h1>Scenes</h1>
+    <ul>
+      {entries.map(entry => (
+        <li>
+          <a href={entry.slug}>{entry.title}</a>
+        </li>
+      ))}
+    </ul>
+  </body>
+</html>
