@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "98.css": "^0.1.20",
     "astro": "^5.1.10"
   }
 }
